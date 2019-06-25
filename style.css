@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.main-block {
+    border-left: solid 2px black;
+    border-right: solid 2px black;
+    margin: 0 100px;
+    box-shadow: 5px 10px grey;
+    padding-top: 1px;
+}
+.wrapper {
+margin: 0 auto;
+width: 1060px;
+}
+h1 {
+    font-size: 46px;
+    margin: 50px 0 25px 0;
+    font-weight: 400;
+    color: rgb(70, 65, 65);
+}
+.main-menu {
+    display: flex;
+    list-style: none;
+    background-image: linear-gradient(rgb(70, 65, 65), rgb(94, 87, 87), rgb(70, 65, 65));
+    padding: 0;
+    justify-content: flex-start;
+}
+.main-menu li {
+    display: inline-block;
+    padding: 15px 30px;
+}
+.main-menu a {
+    text-decoration: none;
+    color: #fff;   
+}
+.main-menu > li:hover {
+    background: rgb(43, 39, 39);
+    border-left: solid 1px rgb(138, 136, 136);
+    border-right: solid 1px rgb(138, 136, 136);
+    padding: 15px 29px;
+}
+.body {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.categories {
+    list-style: none;
+    width: 235px;
+    border-left: solid 1px rgb(92, 89, 89);
+    border-right: solid 1px rgb(92, 89, 89);
+    height: 265px;
+}
+.categories li {
+    border-bottom: solid 1px rgb(92, 89, 89);  
+}
+
+.categories li:first-child {
+    border-top: solid 1px rgb(92, 89, 89);
+}
+.categories a {
+    display: block;
+    padding: 12px 20px;
+    text-decoration: none;
+    color: rgb(80, 72, 72);
+}
+img {
+    border: solid 1px rgb(92, 89, 89);
+    padding: 60px 100px;
+}
+.categories a:hover {
+    background: rgb(192, 197, 211);
+    padding: 12px 20px 12px 30px;
+}
